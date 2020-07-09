@@ -86,7 +86,7 @@ p {
 
 .rate {
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 24px;
     padding: 0 10px;
 }
 
@@ -97,7 +97,29 @@ button:focus {
 }
 
 @media(max-width: 600px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .money-img {
+        width: 120px;
+    }
+
     .currency input {
         width: 200px;
+    }
+
+    .rate {
+        font-size: 16px;
     }
 }
